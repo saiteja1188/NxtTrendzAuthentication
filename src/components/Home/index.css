@@ -1,0 +1,55 @@
+/* Write your CSS code here */
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 40%;
+}
+.home-heading {
+  color: #1e293b;
+  font-family: roboto;
+  font-size: 48px;
+  font-weight: 500;
+}
+.home-description {
+  color: #64748b;
+  font-family: roboto;
+  font-size: 18px;
+  line-height: 30px;
+}
+.shop-now-btn {
+  background-color: #0967d2;
+  color: #ffffff;
+  width: 150px;
+  border: none;
+  font-family: roboto;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 16px 0px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.home-img {
+  width: 300px;
+  height: 350px;
+}
+@media screen and (max-width: 767px) {
+  .home-img {
+    display: none;
+  }
+}
+.home-mobile-img {
+  width: 300px;
+  height: 300px;
+}
+@media screen and (min-width: 768px) {
+  .home-mobile-img {
+    display: none;
+  }
+}

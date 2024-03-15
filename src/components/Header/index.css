@@ -1,0 +1,102 @@
+/* Write your CSS code here */
+.nav-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.nav-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  max-width: 1100px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.nav-mobile-container {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+@media screen and (min-width: 768px) {
+  .nav-mobile-container {
+    display: none;
+  }
+}
+.nav-mobile-logout-btn {
+  border: none;
+  background-color: transparent;
+}
+.nav-mobile-logout {
+  width: 20px;
+  height: 20px;
+}
+
+.nav-large-container {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+@media screen and (max-width: 767px) {
+  .nav-large-container {
+    display: none;
+  }
+}
+.website-logo {
+  width: 150px;
+}
+.nav-menu {
+  display: flex;
+  justify-content: flex-end;
+  align-self: flex-end;
+  list-style-type: none;
+  flex: 1;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.nav-link {
+  font-family: roboto;
+  font-size: 16px;
+  font-weight: 400;
+  color: #475569;
+  text-decoration: none;
+  margin: 10px;
+}
+.logout-btn {
+  background-color: #0b69ff;
+  border-radius: 5px;
+  font-family: roboto;
+  font-size: 14px;
+  padding: 8px 16px;
+  font-weight: 300;
+  color: #ffffff;
+  text-align: center;
+  border: none;
+  margin-left: 10px;
+}
+
+.nav-mobile-menu {
+  display: flex;
+  width: 50%;
+}
+.nav-mobile-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+  background-color: #e6f6ff;
+  width: 90%;
+  padding: 20px 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-mobile-menu {
+    display: none;
+  }
+}
+.nav-img {
+  height: 20px;
+  width: 20px;
+}
